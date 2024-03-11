@@ -18,19 +18,19 @@ First, install the required Python libraries:
 pip install flask pymilvus transformers torch milvus
 ```
 
-### 1. Start Milvus
+### 2. Start Milvus
 
 ```bash
 milvus-server
 ```
 
-### 1. In a new tab or session, run the applicaiton.
+### 3. In a new tab or session, run the applicaiton.
 
 ```bash
 python search-api.py
 ```
 
-### 1. Sample Request:
+### 4. Sample Request:
 
 ```bash
 curl -X POST http://localhost:5000/search -H "Content-Type: application/json" -d '{"query": "your search text here"}'
