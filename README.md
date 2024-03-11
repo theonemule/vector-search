@@ -5,8 +5,7 @@ This Flask application demonstrates how to use Milvus as a vector database and D
 ## Prerequisites
 
 - Python 3.8 or newer
-- Docker (for running Milvus)
-- An environment where Flask can be run
+
 
 ## Setup
 
